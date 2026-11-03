@@ -7,7 +7,7 @@ related_targets: []
 
 # Homepage Union3D
 
-Modo: Persuade. Escopo atual: três estudos visuais para escolha, antes de implementação. Plataforma e fatos em PRODUCT.md; base de identidade em DESIGN.md; adendo em docs/direcao-editorial-aprovada.md.
+Modo: Persuade. Escopo atual: implementação navegável da combinação aprovada dos estudos 2 e 1. Plataforma e fatos em PRODUCT.md; base de identidade em DESIGN.md; adendo em docs/direcao-editorial-aprovada.md e implementação em docs/implementacao.md.
 
 ## Direction contract
 
@@ -29,7 +29,7 @@ Hero: transição por scroll entre fotografia e registro digital do mesmo espaç
 
 ## Aprovação
 
-Estudos gerados em `.impeccable/mocks/estudo-a.png`, `estudo-b.png` e `estudo-c.png`; escolha pendente. Nenhuma imagem deve ser tratada como fotografia de obra, levantamento executado, tela funcional ou aprovação do site. A aprovação não foi registrada em nenhum sidecar.
+Estudos gerados em `.impeccable/mocks/estudo-a.png`, `estudo-b.png` e `estudo-c.png`. O usuário selecionou os dois primeiros em combinação. B tem `approved: true` como referência principal; A tem `approvedAsSupporting: true` como corpo complementar. Nenhuma imagem do estudo deve ser tratada como fotografia de obra ou levantamento executado.
 
 ## Escolha aprovada
 

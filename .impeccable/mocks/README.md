@@ -1,4 +1,4 @@
-# Estudos de composição — aguardando escolha
+# Estudos de composição — combinação escolhida
 
 Os três pertencem ao cenário B aprovado. São imagens geradas para estudo de estrutura, não páginas implementadas. Não existe fotografia, projeto ou registro técnico inventado: os campos de mídia estão reservados e identificados. Textos gerados são propostas editoriais, não fatos institucionais novos aprovados.
 
@@ -8,7 +8,7 @@ Os três pertencem ao cenário B aprovado. São imagens geradas para estudo de e
 | 2 — Arquitetura em primeiro plano | estudo-b.png | A imagem de abertura domina a página; o título acompanha o enquadramento | O campo petróleo é uma reserva de mídia, não a recomendação de um hero vazio ou de fundo tecnológico |
 | 3 — Díptico do registro | estudo-c.png | Tipografia de grande escala e justaposição foto/registro | Maior risco de a tipografia dominar a arquitetura; precisa de escala responsiva e de revisão com o acervo |
 
-Recomendação para escolha: estudo 2 como estrutura de abertura, porque deixa a futura fotografia real liderar. A contenção tipográfica do estudo 1 pode informar o refinamento se o usuário pedir combinação. Nenhuma combinação foi aplicada ou aprovada.
+Escolha explícita do usuário: estudos 2 e 1, em combinação. A implementação utiliza o hero amplo do estudo 2 e o ritmo editorial do estudo 1. O estudo 3 não foi selecionado.
 
 ## Movimento, ainda não executado
 
