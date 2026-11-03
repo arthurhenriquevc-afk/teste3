@@ -1,0 +1,45 @@
+{
+  "browser": "155.0.8059.79",
+  "checks": [
+    {
+      "name": "16 routes load with one heading and no JavaScript errors",
+      "passed": true
+    },
+    {
+      "name": "hero responds to scroll and preserves keyboard/manual control",
+      "passed": true
+    },
+    {
+      "name": "construction sequence communicates both stages",
+      "passed": true
+    },
+    {
+      "name": "service filters and shared query links select the correct sets",
+      "passed": true
+    },
+    {
+      "name": "contact validates fields and prepares an encoded message without claiming delivery",
+      "passed": true
+    },
+    {
+      "name": "mobile menu opens, closes on Escape and restores focus",
+      "passed": true
+    },
+    {
+      "name": "five representative routes fit five viewport widths",
+      "passed": true
+    },
+    {
+      "name": "reduced motion disables automatic scrubbing but preserves manual access",
+      "passed": true
+    },
+    {
+      "name": "without JavaScript navigation and all service content remain accessible",
+      "passed": true
+    },
+    {
+      "name": "200 percent text sizing retains horizontal fit on mobile",
+      "passed": true
+    }
+  ]
+}

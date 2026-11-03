@@ -1,0 +1,45 @@
+/* Union3D · movimento. GERADO por scripts/build-tokens.mjs a partir de tokens/tokens.json: não edite à mão.
+   Uma escala só: instant 80, fast 150, exit 200, base 300, slow 400, panel 500, reveal 800, slower 900.
+   Laços e coreografias têm nome próprio. O movimento reduzido está em components/union3d.css (bloco final). */
+:root {
+  --u3-dur-instant: 80ms;
+  --u3-dur-fast: 150ms;
+  --u3-dur-exit: 200ms;
+  --u3-dur-base: 300ms;
+  --u3-dur-slow: 400ms;
+  --u3-dur-panel: 500ms;
+  --u3-dur-reveal: 800ms;
+  --u3-dur-slower: 900ms;
+  --u3-dur-glide: 1.3s;
+  --u3-dur-count: 1400ms;
+  --u3-dur-shimmer: 1.5s;
+  --u3-dur-beam: 3.2s;
+  --u3-dur-ambient: 9s;
+  --u3-dur-loop: 40s;
+  --u3-stagger-step: 80ms;
+  --u3-reduced-duration: 200ms;
+  --u3-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --u3-ease-enter: cubic-bezier(0, 0, 0, 1);
+  --u3-ease-exit: cubic-bezier(0.4, 0, 1, 1);
+  --u3-ease-emphasized: cubic-bezier(0.16, 1, 0.3, 1);
+  --u3-ease-panel: cubic-bezier(0.5, 0, 0, 0.75);
+  --u3-ease-out: cubic-bezier(.2, .8, .2, 1);
+  --u3-ease-spring: cubic-bezier(.34, 1.36, .64, 1);
+  --u3-ease-sine-out: cubic-bezier(.61, 1, .88, 1);
+  --u3-reveal-ease: ease-out;
+  --u3-reveal-distance: 30px;
+  --u3-reveal-blur: 10px;
+  --u3-reveal-stagger: .1s;
+  /* obsoletos: apontam para a escala nova; remover na próxima versão maior */
+  --u3-dur-ui-fast: var(--u3-dur-fast);
+  --u3-dur-ui: var(--u3-dur-base);
+  --u3-dur-nav: var(--u3-dur-base);
+  --u3-dur-ui-slow: var(--u3-dur-panel);
+  --u3-dur-section: var(--u3-dur-panel);
+  --u3-dur-nav-in: var(--u3-dur-slow);
+  --u3-dur-nav-out: var(--u3-dur-exit);
+  --u3-dur-entrance: var(--u3-dur-reveal);
+  --u3-dur-title: var(--u3-dur-slower);
+  --u3-dur-long: 1200ms;
+  --u3-dur-hero: 2400ms;
+}

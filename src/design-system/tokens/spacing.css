@@ -1,0 +1,41 @@
+/* Union3D · espaço, raios, medidas e camadas. GERADO por scripts/build-tokens.mjs a partir de tokens/tokens.json: não edite à mão.
+   Os breakpoints ficam só no tokens.json (layout.breakpoints): media queries não leem variáveis. */
+:root {
+  --u3-space-1: 4px;
+  --u3-space-2: 8px;
+  --u3-space-3: 12px;
+  --u3-space-4: 17px;
+  --u3-space-5: 24px;
+  --u3-space-6: 32px;
+  --u3-space-7: 48px;
+  --u3-space-8: 80px;
+  --u3-r-0: 0px; /* obsoleto */
+  --u3-r-4: 4px;
+  --u3-r-8: 8px;
+  --u3-r-12: 12px;
+  --u3-r-btn: 4px;
+  --u3-r-field: 4px;
+  --u3-r-card: 12px;
+  --u3-r-panel: 12px;
+  --u3-r-item: 8px;
+  --u3-r-icon: 999px;
+  --u3-r-pill: 999px;
+  --u3-r-badge: 4px;
+  --u3-container: 1280px;
+  --u3-margin: 80px;
+  --u3-gutter: 24px;
+  --u3-header-h: 56px;
+  --u3-target: 44px;
+  --u3-target-fine: 40px;
+  --u3-focus-width: 2px;
+  --u3-focus-offset: 2px;
+  --u3-z-sticky: 20;
+  --u3-z-popover: 30;
+  --u3-z-header: 40;
+  --u3-z-float: 45;
+  --u3-z-doc: 60;
+  --u3-z-menu: 100;
+  --u3-z-drawer: 110;
+  --u3-z-toast: 120;
+  --u3-z-skip: 200;
+}
