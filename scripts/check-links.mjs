@@ -1,6 +1,9 @@
 import { readFile, access } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { routes } from '../src/pages.mjs';
+import { siteBase } from './site-base.mjs';
+
+const base = siteBase();
 
 let checked = 0;
 const failures = [];
@@ -12,7 +15,8 @@ for (const route of routes) {
     if (!target || target === '#') { failures.push(`${route.path}: destino vazio`); continue; }
     if (/^(https?:|mailto:|tel:|data:)/.test(target)) continue;
     const url = new URL(target.replace(/&amp;/g, '&'), 'https://local.test' + route.path);
-    const pathname = decodeURIComponent(url.pathname);
+    let pathname = decodeURIComponent(url.pathname);
+    if (base !== '/' && pathname.startsWith(base)) pathname = '/' + pathname.slice(base.length);
     const dest = resolve('dist', '.' + pathname, ...(pathname.endsWith('/') ? ['index.html'] : []));
     try {
       await access(dest);

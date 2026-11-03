@@ -65,4 +65,6 @@ TEST_BASE_URL=http://127.0.0.1:4174 python tests/browser.py
 
 ## Publicação ainda pendente
 
+Prévia autorizada no GitHub Pages: `.github/workflows/pages-preview.yml` publica a branch `feat/union3d-editorial`, sem merge na `main`. O repositório deve ter **Settings → Pages → Source: GitHub Actions** habilitado pelo proprietário. A prévia usa `SITE_BASE=/teste3/` e `PREVIEW_SITE=1` (não indexar). Para verificar esse build localmente: `SITE_BASE=/teste3/ PREVIEW_SITE=1 npm run build` e `SITE_BASE=/teste3/ npm run check:links`.
+
 Não há deploy configurado ou executado. Antes de publicar: integrar e autorizar acervo; confirmar textos técnicos e dados legais; concluir política de privacidade e requisitos do provedor; definir domínio, canonical/sitemap e hospedagem; revisar acessibilidade, mídia e desempenho com os conteúdos finais. Nenhuma métrica de conversão ou Core Web Vitals foi presumida.

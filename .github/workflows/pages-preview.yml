@@ -1,0 +1,56 @@
+name: Union3D — prévia no GitHub Pages
+
+on:
+  push:
+    branches: [feat/union3d-editorial]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: union3d-pages-preview
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      SITE_BASE: /${{ github.event.repository.name }}/
+      PREVIEW_SITE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Instalar dependências fixadas
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Compilar e verificar tipos
+        run: npm run build
+      - name: Testar conteúdo e links da prévia
+        run: npm test && npm run check:links
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+      - name: Publicar prévia
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verificar resposta da página publicada
+        env:
+          PREVIEW_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          curl --fail --show-error --location --retry 8 --retry-delay 5 --retry-all-errors "$PREVIEW_URL" --output /tmp/preview.html
+          node -e "const fs=require('node:fs'); const html=fs.readFileSync('/tmp/preview.html','utf8'); if (!html.includes('O espaço, visto por inteiro.') || !html.includes('data-construction')) process.exit(1); console.log('Homepage e duas experiências presentes na prévia publicada.');"
