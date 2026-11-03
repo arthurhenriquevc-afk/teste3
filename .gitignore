@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.impeccable/review/
+.impeccable/build/
+.impeccable/live/
+/index.html
+/404.html
+/servicos/
+/empresa/
+/contato/
+/privacidade/
+/artifacts/

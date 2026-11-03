@@ -1,0 +1,844 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-03T12:49:03.012Z",
+  "title": "Design System: Union3D",
+  "extensions": {
+    "colorMeta": {
+      "petroleo-950": {
+        "role": "primary",
+        "displayName": "Petróleo Noite",
+        "canonical": "#00202e",
+        "tonalRamp": [
+          "#00202e",
+          "#002e40",
+          "#063446",
+          "#0d394c",
+          "#0b3d52",
+          "#134356",
+          "#0f5470",
+          "#186381",
+          "#247293",
+          "#96c6de",
+          "#e0f2fb",
+          "#e6f2f9"
+        ]
+      },
+      "petroleo-900": {
+        "role": "primary",
+        "displayName": "Petróleo Profundo",
+        "canonical": "#002e40",
+        "tonalRamp": [
+          "#00202e",
+          "#002e40",
+          "#063446",
+          "#0d394c",
+          "#0b3d52",
+          "#134356",
+          "#0f5470",
+          "#186381",
+          "#247293",
+          "#96c6de",
+          "#e0f2fb",
+          "#e6f2f9"
+        ]
+      },
+      "petroleo-850": {
+        "role": "primary",
+        "displayName": "Petróleo Alternado Escuro",
+        "canonical": "#063446",
+        "tonalRamp": [
+          "#00202e",
+          "#002e40",
+          "#063446",
+          "#0d394c",
+          "#0b3d52",
+          "#134356",
+          "#0f5470",
+          "#186381",
+          "#247293",
+          "#96c6de",
+          "#e0f2fb",
+          "#e6f2f9"
+        ]
+      },
+      "petroleo-800": {
+        "role": "primary",
+        "displayName": "Petróleo Cartão Escuro",
+        "canonical": "#0d394c",
+        "tonalRamp": [
+          "#00202e",
+          "#002e40",
+          "#063446",
+          "#0d394c",
+          "#0b3d52",
+          "#134356",
+          "#0f5470",
+          "#186381",
+          "#247293",
+          "#96c6de",
+          "#e0f2fb",
+          "#e6f2f9"
+        ]
+      },
+      "petroleo-750": {
+        "role": "primary",
+        "displayName": "Petróleo de Hover",
+        "canonical": "#0b3d52",
+        "tonalRamp": [
+          "#00202e",
+          "#002e40",
+          "#063446",
+          "#0d394c",
+          "#0b3d52",
+          "#134356",
+          "#0f5470",
+          "#186381",
+          "#247293",
+          "#96c6de",
+          "#e0f2fb",
+          "#e6f2f9"
+        ]
+      },
+      "petroleo-550": {
+        "role": "primary",
+        "displayName": "Petróleo Link Hover",
+        "canonical": "#186381",
+        "tonalRamp": [
+          "#00202e",
+          "#002e40",
+          "#063446",
+          "#0d394c",
+          "#0b3d52",
+          "#134356",
+          "#0f5470",
+          "#186381",
+          "#247293",
+          "#96c6de",
+          "#e0f2fb",
+          "#e6f2f9"
+        ]
+      },
+      "petroleo-500": {
+        "role": "primary",
+        "displayName": "Petróleo Técnico",
+        "canonical": "#247293",
+        "tonalRamp": [
+          "#00202e",
+          "#002e40",
+          "#063446",
+          "#0d394c",
+          "#0b3d52",
+          "#134356",
+          "#0f5470",
+          "#186381",
+          "#247293",
+          "#96c6de",
+          "#e0f2fb",
+          "#e6f2f9"
+        ]
+      },
+      "petroleo-50": {
+        "role": "primary",
+        "displayName": "Névoa Petróleo",
+        "canonical": "#e6f2f9",
+        "tonalRamp": [
+          "#00202e",
+          "#002e40",
+          "#063446",
+          "#0d394c",
+          "#0b3d52",
+          "#134356",
+          "#0f5470",
+          "#186381",
+          "#247293",
+          "#96c6de",
+          "#e0f2fb",
+          "#e6f2f9"
+        ]
+      },
+      "ceu-400": {
+        "role": "secondary",
+        "displayName": "Céu Claro",
+        "canonical": "#6ccbf7",
+        "tonalRamp": [
+          "#3fa8d5",
+          "#4fbbec",
+          "#6ccbf7"
+        ]
+      },
+      "ceu-500": {
+        "role": "secondary",
+        "displayName": "Céu",
+        "canonical": "#4fbbec",
+        "tonalRamp": [
+          "#3fa8d5",
+          "#4fbbec",
+          "#6ccbf7"
+        ]
+      },
+      "ceu-600": {
+        "role": "secondary",
+        "displayName": "Céu Pressionado",
+        "canonical": "#3fa8d5",
+        "tonalRamp": [
+          "#3fa8d5",
+          "#4fbbec",
+          "#6ccbf7"
+        ]
+      },
+      "neutral-0": {
+        "role": "neutral",
+        "displayName": "Branco Papel",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#10171b",
+          "#1f282d",
+          "#353f44",
+          "#4e575c",
+          "#666f74",
+          "#8b9498",
+          "#b1b9bd",
+          "#cfd5d8",
+          "#e4e9eb",
+          "#f5f5f7",
+          "#fafafc",
+          "#ffffff"
+        ]
+      },
+      "neutral-50": {
+        "role": "neutral",
+        "displayName": "Superfície Alternada",
+        "canonical": "#fafafc",
+        "tonalRamp": [
+          "#10171b",
+          "#1f282d",
+          "#353f44",
+          "#4e575c",
+          "#666f74",
+          "#8b9498",
+          "#b1b9bd",
+          "#cfd5d8",
+          "#e4e9eb",
+          "#f5f5f7",
+          "#fafafc",
+          "#ffffff"
+        ]
+      },
+      "neutral-100": {
+        "role": "neutral",
+        "displayName": "Cinza Página",
+        "canonical": "#f5f5f7",
+        "tonalRamp": [
+          "#10171b",
+          "#1f282d",
+          "#353f44",
+          "#4e575c",
+          "#666f74",
+          "#8b9498",
+          "#b1b9bd",
+          "#cfd5d8",
+          "#e4e9eb",
+          "#f5f5f7",
+          "#fafafc",
+          "#ffffff"
+        ]
+      },
+      "neutral-200": {
+        "role": "neutral",
+        "displayName": "Divisória Fria",
+        "canonical": "#e4e9eb",
+        "tonalRamp": [
+          "#10171b",
+          "#1f282d",
+          "#353f44",
+          "#4e575c",
+          "#666f74",
+          "#8b9498",
+          "#b1b9bd",
+          "#cfd5d8",
+          "#e4e9eb",
+          "#f5f5f7",
+          "#fafafc",
+          "#ffffff"
+        ]
+      },
+      "neutral-300": {
+        "role": "neutral",
+        "displayName": "Borda de Cartão",
+        "canonical": "#cfd5d8",
+        "tonalRamp": [
+          "#10171b",
+          "#1f282d",
+          "#353f44",
+          "#4e575c",
+          "#666f74",
+          "#8b9498",
+          "#b1b9bd",
+          "#cfd5d8",
+          "#e4e9eb",
+          "#f5f5f7",
+          "#fafafc",
+          "#ffffff"
+        ]
+      },
+      "neutral-500": {
+        "role": "neutral",
+        "displayName": "Borda de Campo",
+        "canonical": "#8b9498",
+        "tonalRamp": [
+          "#10171b",
+          "#1f282d",
+          "#353f44",
+          "#4e575c",
+          "#666f74",
+          "#8b9498",
+          "#b1b9bd",
+          "#cfd5d8",
+          "#e4e9eb",
+          "#f5f5f7",
+          "#fafafc",
+          "#ffffff"
+        ]
+      },
+      "neutral-600": {
+        "role": "neutral",
+        "displayName": "Meta",
+        "canonical": "#666f74",
+        "tonalRamp": [
+          "#10171b",
+          "#1f282d",
+          "#353f44",
+          "#4e575c",
+          "#666f74",
+          "#8b9498",
+          "#b1b9bd",
+          "#cfd5d8",
+          "#e4e9eb",
+          "#f5f5f7",
+          "#fafafc",
+          "#ffffff"
+        ]
+      },
+      "neutral-700": {
+        "role": "neutral",
+        "displayName": "Texto Secundário",
+        "canonical": "#4e575c",
+        "tonalRamp": [
+          "#10171b",
+          "#1f282d",
+          "#353f44",
+          "#4e575c",
+          "#666f74",
+          "#8b9498",
+          "#b1b9bd",
+          "#cfd5d8",
+          "#e4e9eb",
+          "#f5f5f7",
+          "#fafafc",
+          "#ffffff"
+        ]
+      },
+      "neutral-950": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "#10171b",
+        "tonalRamp": [
+          "#10171b",
+          "#1f282d",
+          "#353f44",
+          "#4e575c",
+          "#666f74",
+          "#8b9498",
+          "#b1b9bd",
+          "#cfd5d8",
+          "#e4e9eb",
+          "#f5f5f7",
+          "#fafafc",
+          "#ffffff"
+        ]
+      },
+      "bruma-200": {
+        "role": "neutral",
+        "displayName": "Bruma Clara",
+        "canonical": "#d7dfe4",
+        "tonalRamp": [
+          "#a6b3bb",
+          "#c4ced4",
+          "#d7dfe4"
+        ]
+      },
+      "bruma-300": {
+        "role": "neutral",
+        "displayName": "Bruma",
+        "canonical": "#c4ced4",
+        "tonalRamp": [
+          "#a6b3bb",
+          "#c4ced4",
+          "#d7dfe4"
+        ]
+      },
+      "bruma-400": {
+        "role": "neutral",
+        "displayName": "Bruma Meta",
+        "canonical": "#a6b3bb",
+        "tonalRamp": [
+          "#a6b3bb",
+          "#c4ced4",
+          "#d7dfe4"
+        ]
+      },
+      "success-600": {
+        "role": "semantic",
+        "displayName": "Sucesso",
+        "canonical": "#267543",
+        "tonalRamp": [
+          "#267543",
+          "#8cd19e",
+          "#bbe4c4",
+          "#e4f5e8"
+        ]
+      },
+      "warning-700": {
+        "role": "semantic",
+        "displayName": "Aviso Texto",
+        "canonical": "#8b5502",
+        "tonalRamp": [
+          "#8b5502",
+          "#f2af48",
+          "#e9b276",
+          "#f3d1ae",
+          "#fceddf"
+        ]
+      },
+      "warning-400": {
+        "role": "semantic",
+        "displayName": "Aviso",
+        "canonical": "#f2af48",
+        "tonalRamp": [
+          "#8b5502",
+          "#f2af48",
+          "#e9b276",
+          "#f3d1ae",
+          "#fceddf"
+        ]
+      },
+      "danger-600": {
+        "role": "semantic",
+        "displayName": "Perigo",
+        "canonical": "#c83122",
+        "tonalRamp": [
+          "#c83122",
+          "#f7a599",
+          "#fdc9c1",
+          "#ffebe8"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Título grande de abertura e lettering fantasma; fluido por clamp."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "h1 de página; frase em caixa de sentença com ponto final."
+      },
+      "headline-2": {
+        "displayName": "Headline 2",
+        "purpose": "h2 de seção."
+      },
+      "title-lg": {
+        "displayName": "Title Lg",
+        "purpose": "h3: subtítulo de seção."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "h4: título de cartão."
+      },
+      "subtitle": {
+        "displayName": "Subtitle",
+        "purpose": "h5: título menor, peso 500."
+      },
+      "subtitle-sm": {
+        "displayName": "Subtitle Sm",
+        "purpose": "h6: rótulo de bloco, peso 500."
+      },
+      "body-lg": {
+        "displayName": "Body Lg",
+        "purpose": "Lead, parágrafo de abertura."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texto corrido."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Texto de botão, índice de cartão e controles compactos."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Rótulos de campo, navegação, selos."
+      },
+      "helper": {
+        "displayName": "Helper",
+        "purpose": "Ajuda e erro de campo."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Legendas, metadados e selos pequenos."
+      },
+      "overline": {
+        "displayName": "Overline",
+        "purpose": "Sobretítulo de seção em Geist Mono, caixa alta via CSS."
+      }
+    },
+    "shadows": [
+      {
+        "name": "u3-shadow-1",
+        "value": "inset 0 1px 0 rgb(255 255 255 / 0.06), 0 1px 2px rgb(16 23 27 / 0.32)",
+        "purpose": "Repouso: cartões e superfícies, quase imperceptível."
+      },
+      {
+        "name": "u3-shadow-2",
+        "value": "inset 0 1px 0 rgb(255 255 255 / 0.08), 0 2px 6px rgb(16 23 27 / 0.28), 0 12px 28px -12px rgb(16 23 27 / 0.72)",
+        "purpose": "Painel: camadas flutuantes, vidro, popovers."
+      },
+      {
+        "name": "u3-shadow-3",
+        "value": "inset 0 1px 0 rgb(255 255 255 / 0.12), 0 8px 16px -8px rgb(16 23 27 / 0.48), 0 32px 64px -24px rgb(16 23 27 / 0.8)",
+        "purpose": "Elevado: hover de cartão interativo e camadas altas."
+      },
+      {
+        "name": "u3-shadow-hover",
+        "value": "0 8px 20px -10px rgb(16 23 27 / 0.45)",
+        "purpose": "Hover de botões; mais densa no escuro."
+      },
+      {
+        "name": "u3-shadow-hover-accent",
+        "value": "0 8px 20px -10px rgb(79 187 236 / 0.55)",
+        "purpose": "Brilho Céu, só no botão de acento."
+      }
+    ],
+    "motion": [
+      {
+        "name": "u3-dur-instant",
+        "value": "80ms",
+        "purpose": "Pressão do botão e atrasos mínimos. Fonte: A union3d.css:178."
+      },
+      {
+        "name": "u3-dur-fast",
+        "value": "150ms",
+        "purpose": "Troca de cor de texto, ícone e opacidade curta. Une A --u3-dur-fast (160) e B --ui-dur-fast (150)."
+      },
+      {
+        "name": "u3-dur-exit",
+        "value": "200ms",
+        "purpose": "Saídas: tooltip, painel de navegação, modal fechando. Une A --u3-dur-nav-out (200) e as saídas de .2s a .26s."
+      },
+      {
+        "name": "u3-dur-base",
+        "value": "300ms",
+        "purpose": "Padrão da interface: hover de botão, sombra, seta, borda. Une A --u3-dur-base (240), B --ui-dur (300) e A/B --u3-dur-nav (330)."
+      },
+      {
+        "name": "u3-dur-slow",
+        "value": "400ms",
+        "purpose": "Entradas com mola e painéis de navegação. Une A --u3-dur-slow e --u3-dur-nav-in (400) e as molas de .45s."
+      },
+      {
+        "name": "u3-dur-panel",
+        "value": "500ms",
+        "purpose": "Gaveta, acordeão, sublinhado do link. Une A --u3-dur-panel, B --ui-dur-slow (500) e A --u3-dur-section (480)."
+      },
+      {
+        "name": "u3-dur-reveal",
+        "value": "800ms",
+        "purpose": "Revelação ao rolar e entrada de seção. Une B .8s e A --u3-dur-entrance. Lido pelo runtime (DocEases)."
+      },
+      {
+        "name": "u3-dur-slower",
+        "value": "900ms",
+        "purpose": "Zoom lento de foto no hover e entrada de título. Era A --u3-dur-title e o literal .9s."
+      },
+      {
+        "name": "u3-dur-glide",
+        "value": "1.3s",
+        "purpose": "Passagem entre seções (m-section-glide B)."
+      },
+      {
+        "name": "u3-dur-count",
+        "value": "1400ms",
+        "purpose": "Contador numérico (B, 1,4 s, ease-out cúbico)."
+      },
+      {
+        "name": "u3-dur-shimmer",
+        "value": "1.5s",
+        "purpose": "Brilho do esqueleto de carregamento."
+      },
+      {
+        "name": "u3-dur-beam",
+        "value": "3.2s",
+        "purpose": "Giro do feixe da borda (B ds_bundle.css:791)."
+      },
+      {
+        "name": "u3-dur-ambient",
+        "value": "9s",
+        "purpose": "Movimento ambiente de fundo."
+      },
+      {
+        "name": "u3-dur-loop",
+        "value": "40s",
+        "purpose": "Letreiro contínuo."
+      },
+      {
+        "name": "u3-stagger-step",
+        "value": "80ms",
+        "purpose": "Passo da cascata de itens."
+      },
+      {
+        "name": "u3-reduced-duration",
+        "value": "200ms",
+        "purpose": "Fade único quando o usuário pede movimento reduzido (A e B)."
+      },
+      {
+        "name": "u3-ease-standard",
+        "value": "cubic-bezier(0.2, 0, 0, 1)",
+        "purpose": "Curva padrão de A."
+      },
+      {
+        "name": "u3-ease-enter",
+        "value": "cubic-bezier(0, 0, 0, 1)",
+        "purpose": "Entradas."
+      },
+      {
+        "name": "u3-ease-exit",
+        "value": "cubic-bezier(0.4, 0, 1, 1)",
+        "purpose": "Saídas (= B --ui-ease-in)."
+      },
+      {
+        "name": "u3-ease-emphasized",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Setas, chevrons, títulos."
+      },
+      {
+        "name": "u3-ease-panel",
+        "value": "cubic-bezier(0.5, 0, 0, 0.75)",
+        "purpose": "Gaveta e painel (= B --ui-ease-drawer)."
+      },
+      {
+        "name": "u3-ease-out",
+        "value": "cubic-bezier(.2, .8, .2, 1)",
+        "purpose": "Hovers e indicadores (B)."
+      },
+      {
+        "name": "u3-ease-spring",
+        "value": "cubic-bezier(.34, 1.36, .64, 1)",
+        "purpose": "Mola de B: entrada de modal, indicadores."
+      },
+      {
+        "name": "u3-ease-sine-out",
+        "value": "cubic-bezier(.61, 1, .88, 1)",
+        "purpose": "Passagem entre seções."
+      },
+      {
+        "name": "u3-reveal-ease",
+        "value": "ease-out",
+        "purpose": "Revelação ao rolar (B motion.css)."
+      },
+      {
+        "name": "u3-reveal-distance",
+        "value": "30px",
+        "purpose": "Subida da revelação."
+      },
+      {
+        "name": "u3-reveal-blur",
+        "value": "10px",
+        "purpose": "Desfoque inicial da revelação."
+      },
+      {
+        "name": "u3-reveal-stagger",
+        "value": ".1s",
+        "purpose": "Cascata da revelação, até o sexto item."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "bp-sm",
+        "value": "640px",
+        "purpose": "Componentes que precisam de um degrau a mais no celular: galeria em 2 colunas, scanner, acordeão, contêiner da documentação. Usado como max-width: 640px."
+      },
+      {
+        "name": "bp-md",
+        "value": "768px",
+        "purpose": "Grade de 4 colunas, margem 20 e gutter 16 abaixo daqui (max-width: 767px)."
+      },
+      {
+        "name": "bp-lg",
+        "value": "960px",
+        "purpose": "Componentes de mídia e documentação: galeria em 4 colunas, scanner quadrado. Usado como max-width: 960px."
+      },
+      {
+        "name": "bp-xl",
+        "value": "1280px",
+        "purpose": "Grade de 8 colunas, margem 40 e gutter 20 abaixo daqui (max-width: 1279px)."
+      },
+      {
+        "name": "bp-doc",
+        "value": "1400px",
+        "purpose": "Só a documentação: o trilho lateral aparece a partir daqui (min-width: 1400px)."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão primário",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação principal da tela: Petróleo Profundo, cantos de 4px.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Solicitar orçamento <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12 H19 M13 6 L19 12 L13 18\"></path></svg></button>",
+      "css": ".ds-btn { font-family: var(--font-sans, Geist, system-ui, sans-serif); display: inline-flex; align-items: center; justify-content: center; gap: 10px; height: 40px; padding: 0 22px; border: 1px solid transparent; border-radius: 4px; font-size: 15px; font-weight: 500; line-height: 20px; letter-spacing: .005em; cursor: pointer; transition: background-color 300ms cubic-bezier(.2,.8,.2,1), color 300ms cubic-bezier(.2,.8,.2,1), border-color 300ms cubic-bezier(.2,.8,.2,1), box-shadow 300ms cubic-bezier(.2,.8,.2,1), transform 300ms cubic-bezier(.2,.8,.2,1); } .ds-btn:active { transform: scale(.98); transition-duration: 80ms; } .ds-btn:focus-visible { outline: 2px solid var(--u3-focus-ring, #247293); outline-offset: 2px; } .ds-btn svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: square; transition: transform 300ms cubic-bezier(.16,1,.3,1); } .ds-btn:hover svg { transform: translateX(4px); } .ds-btn-primary { background: var(--u3-action-primary-bg, #002e40); color: var(--u3-text-on-primary, #fafafc); } .ds-btn-primary:hover { background: var(--u3-action-primary-bg-hover, #0b3d52); box-shadow: 0 8px 20px -10px rgb(16 23 27 / .45); } .ds-btn-primary:active { background: var(--u3-action-primary-bg-active, #00202e); }"
+    },
+    {
+      "name": "Botão secundário",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Ação de apoio: contorno petróleo-500 que se preenche com tinta no hover.",
+      "html": "<button class=\"ds-btn ds-btn-secondary\">Ver prazos e etapas</button>",
+      "css": ".ds-btn { font-family: var(--font-sans, Geist, system-ui, sans-serif); display: inline-flex; align-items: center; justify-content: center; gap: 10px; height: 40px; padding: 0 22px; border: 1px solid transparent; border-radius: 4px; font-size: 15px; font-weight: 500; line-height: 20px; letter-spacing: .005em; cursor: pointer; transition: background-color 300ms cubic-bezier(.2,.8,.2,1), color 300ms cubic-bezier(.2,.8,.2,1), border-color 300ms cubic-bezier(.2,.8,.2,1), box-shadow 300ms cubic-bezier(.2,.8,.2,1), transform 300ms cubic-bezier(.2,.8,.2,1); } .ds-btn:active { transform: scale(.98); transition-duration: 80ms; } .ds-btn:focus-visible { outline: 2px solid var(--u3-focus-ring, #247293); outline-offset: 2px; } .ds-btn svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: square; transition: transform 300ms cubic-bezier(.16,1,.3,1); } .ds-btn:hover svg { transform: translateX(4px); } .ds-btn-secondary { background: var(--u3-surface-card, #ffffff); color: var(--u3-action-secondary-fg, #247293); border-color: var(--u3-action-secondary-fg, #247293); } .ds-btn-secondary:hover { background: var(--u3-action-secondary-subtle, rgb(36 114 147 / .08)); color: var(--u3-action-secondary-fg-hover, #186381); border-color: var(--u3-action-secondary-fg-hover, #186381); box-shadow: 0 8px 20px -10px rgb(16 23 27 / .45); }"
+    },
+    {
+      "name": "Botão de acento",
+      "kind": "button",
+      "refersTo": "button-accent",
+      "description": "O único Céu da tela: no máximo um por tela, brilho Céu no hover.",
+      "html": "<button class=\"ds-btn ds-btn-accent\">Falar com a equipe <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12 H19 M13 6 L19 12 L13 18\"></path></svg></button>",
+      "css": ".ds-btn { font-family: var(--font-sans, Geist, system-ui, sans-serif); display: inline-flex; align-items: center; justify-content: center; gap: 10px; height: 40px; padding: 0 22px; border: 1px solid transparent; border-radius: 4px; font-size: 15px; font-weight: 500; line-height: 20px; letter-spacing: .005em; cursor: pointer; transition: background-color 300ms cubic-bezier(.2,.8,.2,1), color 300ms cubic-bezier(.2,.8,.2,1), border-color 300ms cubic-bezier(.2,.8,.2,1), box-shadow 300ms cubic-bezier(.2,.8,.2,1), transform 300ms cubic-bezier(.2,.8,.2,1); } .ds-btn:active { transform: scale(.98); transition-duration: 80ms; } .ds-btn:focus-visible { outline: 2px solid var(--u3-focus-ring, #247293); outline-offset: 2px; } .ds-btn svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: square; transition: transform 300ms cubic-bezier(.16,1,.3,1); } .ds-btn:hover svg { transform: translateX(4px); } .ds-btn-accent { background: var(--u3-action-accent-bg, #4fbbec); color: var(--u3-text-on-accent, #002e40); } .ds-btn-accent:hover { background: var(--u3-action-accent-bg-hover, #6ccbf7); box-shadow: 0 8px 20px -10px rgb(79 187 236 / .55); } .ds-btn-accent:active { background: var(--u3-action-accent-bg-active, #3fa8d5); box-shadow: none; }"
+    },
+    {
+      "name": "Botão ghost",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Ação terciária sem fundo; ink-4 no hover.",
+      "html": "<button class=\"ds-btn ds-btn-ghost\">Cancelar</button>",
+      "css": ".ds-btn { font-family: var(--font-sans, Geist, system-ui, sans-serif); display: inline-flex; align-items: center; justify-content: center; gap: 10px; height: 40px; padding: 0 22px; border: 1px solid transparent; border-radius: 4px; font-size: 15px; font-weight: 500; line-height: 20px; letter-spacing: .005em; cursor: pointer; transition: background-color 300ms cubic-bezier(.2,.8,.2,1), color 300ms cubic-bezier(.2,.8,.2,1), border-color 300ms cubic-bezier(.2,.8,.2,1), box-shadow 300ms cubic-bezier(.2,.8,.2,1), transform 300ms cubic-bezier(.2,.8,.2,1); } .ds-btn:active { transform: scale(.98); transition-duration: 80ms; } .ds-btn:focus-visible { outline: 2px solid var(--u3-focus-ring, #247293); outline-offset: 2px; } .ds-btn svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: square; transition: transform 300ms cubic-bezier(.16,1,.3,1); } .ds-btn:hover svg { transform: translateX(4px); } .ds-btn-ghost { background: transparent; color: var(--u3-action-primary-bg, #002e40); padding: 0 14px; } .ds-btn-ghost:hover { background: var(--u3-action-ghost-hover, rgb(0 46 64 / .04)); }"
+    },
+    {
+      "name": "Campo de texto",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "48px, contorno neutral-500, halo petróleo de 3px no foco.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">E-mail</span><input class=\"ds-input\" type=\"email\" placeholder=\"voce@empresa.com.br\"></label>",
+      "css": ".ds-field { font-family: var(--font-sans, Geist, system-ui, sans-serif); display: grid; gap: 8px; max-width: 360px; } .ds-field-label { font-size: 14px; font-weight: 500; line-height: 20px; color: var(--u3-text-title, #002e40); } .ds-input { box-sizing: border-box; width: 100%; height: 48px; padding: 0 14px; border: 1px solid var(--u3-border-field, #8b9498); border-radius: 4px; background: var(--u3-surface-card, #ffffff); color: var(--u3-text-body, #10171b); font: 400 16px/24px inherit; font-family: inherit; outline: none; transition: border-color 150ms cubic-bezier(.2,0,0,1), box-shadow 150ms cubic-bezier(.2,0,0,1); } .ds-input::placeholder { color: var(--u3-text-meta, #666f74); } .ds-input:hover { border-color: var(--u3-border-field-hover, #4e575c); } .ds-input:focus { border-color: var(--u3-action-secondary-fg, #247293); box-shadow: 0 0 0 3px var(--u3-focus-halo, rgb(36 114 147 / .24)); }"
+    },
+    {
+      "name": "Cabeçalho",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "56px, marca à esquerda, links em Label com fundo tingido no hover e na página atual.",
+      "html": "<nav class=\"ds-header\"><span class=\"ds-header-brand\">UNION3D</span><ul class=\"ds-header-nav\"><li><a class=\"ds-header-link\" href=\"#\" aria-current=\"page\">Serviços</a></li><li><a class=\"ds-header-link\" href=\"#\">Tecnologia</a></li><li><a class=\"ds-header-link\" href=\"#\">Como trabalhamos</a></li><li><a class=\"ds-header-link\" href=\"#\">Contato</a></li></ul></nav>",
+      "css": ".ds-header { font-family: var(--font-sans, Geist, system-ui, sans-serif); display: flex; align-items: center; justify-content: space-between; height: 56px; padding: 0 24px; background: var(--u3-surface-card, #ffffff); border-bottom: 1px solid var(--u3-border-divider, #e4e9eb); color: var(--u3-text-title, #002e40); } .ds-header-brand { font-weight: 600; letter-spacing: -.02em; } .ds-header-nav { display: flex; gap: 4px; margin: 0; padding: 0; list-style: none; } .ds-header-link { display: inline-flex; align-items: center; height: 32px; padding: 4px 16px; border-radius: 4px; color: inherit; font-size: 14px; font-weight: 500; line-height: 20px; text-decoration: none; transition: background-color 300ms cubic-bezier(.5,0,0,.75); } .ds-header-link:hover { background: var(--u3-ink-6, rgb(0 46 64 / .06)); } .ds-header-link[aria-current=\"page\"] { background: var(--u3-ink-4, rgb(0 46 64 / .04)); } .ds-header-link:focus-visible { outline: 2px solid var(--u3-focus-ring, #247293); outline-offset: 2px; }"
+    },
+    {
+      "name": "Tag técnica",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Tipo de arquivo ou entregável em Geist Mono 12px, cantos de 4px.",
+      "html": "<span class=\"ds-tag\">E57</span><span class=\"ds-tag\">RCP</span><span class=\"ds-tag\">DWG</span><span class=\"ds-tag\">IFC</span>",
+      "css": ".ds-tag { display: inline-block; padding: 2px 6px; margin: 2px 4px 2px 0; border-radius: 4px; background: var(--u3-surface-alt, #fafafc); border: 1px solid var(--u3-border-divider, #e4e9eb); font: 400 12px/1.4 var(--font-mono, ui-monospace, monospace); color: var(--u3-text-secondary, #4e575c); }"
+    },
+    {
+      "name": "Cartão de serviço",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Cartão interativo: sobe 4px no hover, escurece a borda e desenha uma régua petróleo no topo.",
+      "html": "<a class=\"ds-card\" href=\"#\"><span class=\"ds-card-top\"><span class=\"ds-card-over\">03 / 10</span><span class=\"ds-card-badge\">Antes de concretar</span></span><span class=\"ds-card-title\">Laje com cordoalhas.</span><span class=\"ds-card-body\">Registro da laje protendida antes da concretagem, com a posição real de cada cabo.</span><span class=\"ds-card-more\">Ver serviço <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12 H19 M13 6 L19 12 L13 18\"></path></svg></span></a>",
+      "css": ".ds-card { font-family: var(--font-sans, Geist, system-ui, sans-serif); position: relative; display: flex; flex-direction: column; gap: 14px; max-width: 360px; padding: 24px; overflow: hidden; background: var(--u3-surface-card, #ffffff); border: 1px solid var(--u3-border-card, #cfd5d8); border-radius: 12px; color: var(--u3-text-body, #10171b); text-decoration: none; box-shadow: inset 0 1px 0 rgb(255 255 255 / .06), 0 1px 2px rgb(16 23 27 / .32); transition: border-color 300ms cubic-bezier(.2,0,0,1), box-shadow 300ms cubic-bezier(.2,.8,.2,1), transform 300ms cubic-bezier(.2,.8,.2,1); } .ds-card::before { content: \"\"; position: absolute; left: 0; top: 0; height: 2px; width: 100%; background: var(--u3-action-secondary-fg, #247293); transform: scaleX(0); transform-origin: left; transition: transform 400ms cubic-bezier(.16,1,.3,1); } .ds-card:hover { border-color: var(--u3-border-field, #8b9498); box-shadow: inset 0 1px 0 rgb(255 255 255 / .12), 0 8px 16px -8px rgb(16 23 27 / .48), 0 32px 64px -24px rgb(16 23 27 / .8); transform: translateY(-4px); } .ds-card:hover::before, .ds-card:focus-visible::before { transform: scaleX(1); } .ds-card:focus-visible { outline: 2px solid var(--u3-focus-ring, #247293); outline-offset: 2px; } .ds-card-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; } .ds-card-over { font: 400 15px/20px inherit; font-family: inherit; color: var(--u3-text-meta, #666f74); font-variant-numeric: tabular-nums; } .ds-card-badge { padding: 4px 10px; border-radius: 4px; background: var(--u3-surface-subtle, #e6f2f9); font-size: 12px; font-weight: 500; line-height: 16px; color: var(--u3-text-secondary, #4e575c); } .ds-card-title { font-size: 26px; font-weight: 600; line-height: 1.231; letter-spacing: -.02em; color: var(--u3-text-title, #002e40); } .ds-card-body { font-size: 14px; line-height: 20px; color: var(--u3-text-secondary, #4e575c); } .ds-card-more { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; color: var(--u3-text-link, #247293); } .ds-card-more svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: square; transition: transform 300ms cubic-bezier(.16,1,.3,1); } .ds-card:hover .ds-card-more svg { transform: translateX(4px); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "O Registro Antes da Próxima Etapa",
+    "overview": "A Union3D documenta cada etapa de uma obra antes que a seguinte a cubra: a laje antes do concreto, a instalação antes do reboco, o interior antes da mobília. O sistema visual tem a postura de quem faz esse registro: um engenheiro de campo calmo e preciso, que mede, anota e entrega. Tudo nasce de uma única família azul petróleo profunda, de tipografia Geist com tracking negativo firme e de texturas técnicas (grade, curvas de nível, nuvem de pontos, varredura) em baixo contraste. A cor de destaque, o Céu, aparece pouco e com função: um CTA de acento por tela, brilhos, feixes e o anel de foco.\n\nA densidade é de site de engenharia, não de painel. Seções largas com 80px de ritmo vertical encostam umas nas outras e se separam só pela troca de fundo. Fotografia real de canteiro, tratada em duotone petróleo e em preto e branco nos cartões, carrega a prova; a interface fica sóbria em volta dela. Números são concretos e verificáveis, e o visual acompanha: índices em mono, legendas literais, rótulos FIG. 01.\n\nO sistema recusa o que soaria como marketing genérico: nada de emoji, nada de gradiente decorativo além do cônico da marca (petróleo para Céu), nada de foto de banco com gente sorrindo, nada de linha divisória entre seções.",
+    "keyCharacteristics": [
+      "Uma família de cor só (Petróleo), um acento raro (Céu) e neutros frios.",
+      "Tema claro e escuro completos, mais contexto escuro por seção nos dois temas (hero, seção escura, rodapé, modal, toast, popover, blocos de mídia).",
+      "Geist 600 com tracking negativo nos títulos; Geist Mono para sobretítulos, índices e rótulos técnicos.",
+      "Cantos quase retos (4px) em tudo que é controle; 12px só em cartões e painéis.",
+      "Profundidade por troca de superfície e sombras frias e escuras que aparecem como resposta a estado.",
+      "Movimento numa escala única de durações, com curvas enfáticas para setas e mola para indicadores."
+    ],
+    "rules": [
+      {
+        "name": "The One Signal Rule",
+        "body": "Céu aparece no máximo uma vez como CTA por tela. Nos demais lugares ele só brilha, nunca preenche.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tinted Transparency Rule",
+        "body": "Transparência é sempre tingida: `--u3-ink-*` (petróleo em alfa, que vira branco no escuro), `--u3-white-*` e `--u3-accent-*`. Nunca preto ou cinza puro em alfa.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tonal Layer Rule",
+        "body": "Petróleo 850, 800, 750 e 700 são camadas de superfície no escuro, quase iguais de propósito (1,06 a 1,09:1): separam planos sem desenhar borda. A diferença entre elas nunca comunica estado.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Map Rule",
+        "body": "Os papéis de cor existem uma vez só, em `tokens/tokens.json`. Um componente que precisa de contexto escuro entra na lista `color.contexts`; nenhum CSS redeclara os papéis.",
+        "section": "colors"
+      },
+      {
+        "name": "The Sentence Headline Rule",
+        "body": "Títulos são frases em caixa de sentença terminadas em ponto. Caixa alta só existe no sobretítulo mono, aplicada por CSS.",
+        "section": "typography"
+      },
+      {
+        "name": "The 12px Floor Rule",
+        "body": "Nenhum texto que alguém precise ler fica abaixo de 12px, rótulos mono incluídos. Abaixo disso só o número de contador em pílula de 20px, iniciais de avatar pequeno, os marcadores de logo e de foto que ainda faltam, o HUD do scanner e as páginas de documentação.",
+        "section": "typography"
+      },
+      {
+        "name": "The Shorthand Rule",
+        "body": "Componente usa o atalho `--u3-font-<papel>` (peso, tamanho/entrelinha em px, família). Escrever `font: 500 14px/20px` à mão é dívida.",
+        "section": "typography"
+      },
+      {
+        "name": "The Background Seam Rule",
+        "body": "Seções encostam umas nas outras e se separam só pela troca de fundo. Nunca uma linha.",
+        "section": "layout"
+      },
+      {
+        "name": "The Layer Scale Rule",
+        "body": "Empilhamento só por `--u3-z-*`: sticky 20, popover 30, header 40, float 45, doc 60, menu 100, drawer 110, toast 120, skip 200. Números de 0 a 4 ficam locais, dentro de um componente.",
+        "section": "layout"
+      },
+      {
+        "name": "The Response Shadow Rule",
+        "body": "Sombra forte aparece como resposta (hover, camada aberta), nunca como decoração em repouso.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Near-Square Rule",
+        "body": "Tudo que é controle fica em 4px. Arredondar um botão para 8px ou mais tira a voz técnica do sistema.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** usar Petróleo como estrutura e Céu como sinal, com no máximo um CTA de acento por tela.",
+      "**Do** separar seções pela troca de fundo e manter 80px de ritmo vertical (48 na variante compacta).",
+      "**Do** manter controles em 4px de canto e cartões em 12px.",
+      "**Do** escrever títulos como frases em caixa de sentença com ponto final, e sobretítulos em Geist Mono.",
+      "**Do** tratar fotografia real em duotone petróleo nos heróis e em preto e branco nos cartões.",
+      "**Do** usar só tokens da escala: `--u3-dur-*` para tempo, `--u3-z-*` para camada, `--u3-space-*` para espaço, `--u3-font-*` para texto.",
+      "**Do** reduzir todo movimento a fades de 200ms quando o usuário pede movimento reduzido."
+    ],
+    "donts": [
+      "**Don't** usar emoji, ponto de exclamação ou ícone em fonte; glifos Unicode só nas marcas de alerta (i ✓ ! ×).",
+      "**Don't** traçar linha entre seções.",
+      "**Don't** criar gradiente decorativo além do cônico da marca e dos véus de foto.",
+      "**Don't** usar foto de banco ou estilo de vida; só canteiro real e nuvem de pontos.",
+      "**Don't** redeclarar papéis de cor fora do `tokens.json` nem escrever z-index numérico acima de 4.",
+      "**Don't** inventar preço ou número; \"Sob consulta\" e placeholders entre colchetes são a regra."
+    ]
+  }
+}
